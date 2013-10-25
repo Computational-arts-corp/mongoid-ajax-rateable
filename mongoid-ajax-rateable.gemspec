@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'mongoid/ajax/rateable/version'
+require 'mongoid/rateable/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "mongoid-ajax-rateable"
-  spec.version       = Mongoid::Ajax::Rateable::VERSION
+  spec.version       = Mongoid::Rateable::VERSION
   spec.authors       = ["Victor Piousbox"]
   spec.email         = ["piousbox@gmail.com"]
   spec.description   = %q{TODO: Write a gem description}
